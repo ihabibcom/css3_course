@@ -1,0 +1,39 @@
+      .color {
+        color: red;
+      }
+      .direction {
+        direction: rtl;
+      }
+      .letter-spacing {
+        letter-spacing: 5px;
+      }
+      .line-hight {
+        line-height: 10px;
+      }
+      .text-align {
+        text-align: center;
+      }
+      .text-decoration {
+        text-decoration: line-through;
+      }
+      .text-indent {
+        text-indent: 20px;
+      }
+      .text-shadow {
+        text-shadow: 5px 3px 5px red;
+      }
+      .text-transformation {
+        /* text-transform:uppercase; */
+        /* text-transform:lowercase; */
+        text-transform: capitalize;
+        /* text-transform:none; */
+      }
+     img.valign{
+      vertical-align:middle;
+     }
+     .white-space{
+      white-space: pre ;
+     }
+     .word-spacing{
+      word-spacing: 20px
+     }
