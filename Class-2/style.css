@@ -12,6 +12,7 @@
       }
       .text-align {
         text-align: center;
+        /* text-align: justify; */
       }
       .text-decoration {
         text-decoration: line-through;
