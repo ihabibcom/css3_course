@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS rem em px vh vw disscussion</title>
+    <style>
+      html {
+        font-size: 20px;
+      }
+
+      .box {
+        background-color: aquamarine;
+        border: 5px solid blue;
+      }
+      .px {
+        width: 200px;
+      }
+      .rem {
+        width: 10rem;
+      }
+
+      .emcon {
+        font-size: 25px;
+      }
+      .em {
+        width: 10em;
+      }
+      .percent {
+        width: 40%;
+      }
+      .percent2 {
+        width: 80%;
+      }
+      .wrapper {
+        width: 400px;
+        border: 5px solid rebeccapurple;
+      }
+      .vw {
+        width: 10vw;
+      }
+      .vh {
+        height: 20vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box px">This div is 200 px</div>
+    <div class="box rem">This div is 10 rem</div>
+    <div class="box em">This div is 10 em</div>
+    <div class="emcon box">
+      <div class="em">This an em under a container this 10em</div>
+    </div>
+    <br />
+    <div class="box percent">This is 40% width</div>
+    <div class="box percent2">This is 40% width</div>
+    <br />
+    <div class="wrapper">
+      <div class="box percent">This is 40% width</div>
+    </div>
+    <br />
+    <div class="vw box">This is 10vw width</div>
+    <div class="vh box">This is 20vh width</div>
+  </body>
+</html>
